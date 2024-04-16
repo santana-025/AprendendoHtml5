@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 02</title>
+</head>
+<body>
+    <form>
+       <mark>Sistema de Gestação Academica</mark> 
+       <h2>Manutenção de usuarios do sistema interno</h2>
+       <br>
+       <label for="login">Login :</label>
+       <input type="text" id="login">
+       <br><br>
+       <label for="senha">Senha :</label>
+       <input type="password" id="senha">
+       <br><br>
+       <label for="status"> Status :</label>
+    <select name="" id="status">
+        <option> Inativo</option>
+        <option> Ativo </option>
+        <option> Desistente </option>
+    </select>
+    <br><br>
+
+    <label > Tipo : </label>
+    <input type="radio" id="tec" name="tipoo" value="Técnico">
+    <label for="tec"> Técnico </label>
+    <input type="radio" id="prof" name="tipoo" value="Professor">
+    <label for="prof"> Professor </label>
+    <input type="radio" id="aluno" name="tipoo" value="Aluno">
+    <label for="aluno"> Aluno </label>
+    <br> <br>
+    <label for="data"> Data da Criação : </label>
+    <input type="date" value="date">
+    <br> <br>
+    <label>Perfil : </label>
+    <input type="radio" id="convidado" name="perfill" value="convidado">
+    <label for="convidado"> Convidado </label>
+    <input type="radio" id="Administrador" name="perfill" value="Adiministrador">
+    <label for="Administrador"> Administrador </label>
+    <br> <br>
+    <label for="texta">Observações : </label>
+    <textarea name="" id="texta" cols="20" rows="2
+    "></textarea>
+    <br> <br>
+    <label> Modulos :</label>
+    <input type="checkbox" id="compras">
+    <label for="compras"> Compras </label>
+    <input type="checkbox" id="Biblioteca">
+    <label for="Biblioteca"> Biblioteca </label>
+    <input type="checkbox" id="Academico">
+    <label for="Academico"> Academico </label>
+    <br>
+    <input type="checkbox" id="Documentação">
+    <label for="Documentação"> Documentação </label>
+    <input type="checkbox" id="Recurso">
+    <label for="Recurso"> Recursos Humanos </label>
+</form>
+    
+<br>
+
+    <button>Cadastrar</button>
+    <button>Excluir</button>
+
+</body>
+</html>
